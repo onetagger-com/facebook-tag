@@ -1,2 +1,4 @@
 homepage: 'https://onetagger.com/'
 versions:
+  - sha: 740a6208554cad600bfa64aac00ff7d10b7f2b30
+    changeNotes: Initial release.
