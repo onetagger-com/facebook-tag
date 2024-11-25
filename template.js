@@ -257,6 +257,8 @@ function mapEvent(eventData, data) {
 
   if (eventData.page_location)
     mappedData.event_source_url = eventData.page_location;
+  if (eventData.page_referrer)
+    mappedData.referrer_url = eventData.page_referrer;
   if (eventData.user_agent)
     mappedData.user_data.client_user_agent = eventData.user_agent;
 
